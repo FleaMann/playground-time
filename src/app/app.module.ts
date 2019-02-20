@@ -7,11 +7,15 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CommonModule } from '@angular/common';
 import { HomeComponent } from './home/home.component';
+import { MainContentComponent } from './main-content/main-content.component';
+import { SideNavComponent } from './side-nav/side-nav.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
+    MainContentComponent,
+    SideNavComponent,
   ],
   imports: [
     CommonModule,

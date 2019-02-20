@@ -1,10 +1,14 @@
 import { NgModule } from '@angular/core';
-import { MatCheckboxModule } from '@angular/material/checkbox';
-import { MatButtonModule } from '@angular/material/button';
-import { MatSidenavModule } from '@angular/material/sidenav';
-import { MatListModule } from '@angular/material/list';
-import { MatToolbarModule } from '@angular/material/toolbar';
 import { OverlayModule } from '@angular/cdk/overlay';
+import {
+  MatButtonModule,
+  MatCardModule,
+  MatCheckboxModule,
+  MatIconModule,
+  MatListModule,
+  MatSidenavModule, MatTabsModule,
+  MatToolbarModule
+} from '@angular/material';
 
 @NgModule({
   imports: [
@@ -13,7 +17,10 @@ import { OverlayModule } from '@angular/cdk/overlay';
     MatToolbarModule,
     MatSidenavModule,
     OverlayModule,
-    MatListModule
+    MatListModule,
+    MatIconModule,
+    MatCardModule,
+    MatTabsModule
   ],
   exports: [
     MatButtonModule,
@@ -21,7 +28,9 @@ import { OverlayModule } from '@angular/cdk/overlay';
     MatToolbarModule,
     MatSidenavModule,
     OverlayModule,
-    MatListModule
+    MatListModule,
+    MatIconModule,
+    MatTabsModule,
   ],
 })
 export class MaterialModule {
