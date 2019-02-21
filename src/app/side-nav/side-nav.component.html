@@ -1,5 +1,5 @@
-<mat-list>
-  <mat-list-item>MY LIFE BE LIKE (BIO)</mat-list-item>
-  <mat-list-item>PHOTOGRAPHY</mat-list-item>
-  <mat-list-item>CALENDAR</mat-list-item>
-</mat-list>
+<mat-nav-list>
+  <mat-list-item [routerLink]="['/life']" routerLinkActive="active">My life be like (bio)</mat-list-item>
+  <mat-list-item [routerLink]="['/photography']" routerLinkActive="active">Photography</mat-list-item>
+  <mat-list-item [routerLink]="['/calendar']" routerLinkActive="active">Calendar</mat-list-item>
+</mat-nav-list>
