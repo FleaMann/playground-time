@@ -20,7 +20,7 @@ import {
     MatListModule,
     MatIconModule,
     MatCardModule,
-    MatTabsModule
+    MatTabsModule,
   ],
   exports: [
     MatButtonModule,

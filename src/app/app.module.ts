@@ -9,6 +9,9 @@ import { CommonModule } from '@angular/common';
 import { HomeComponent } from './home/home.component';
 import { MainContentComponent } from './main-content/main-content.component';
 import { SideNavComponent } from './side-nav/side-nav.component';
+import { LifeComponent } from './life/life.component';
+import { PhotographyComponent } from './photography/photography.component';
+import { CalendarComponent } from './calendar/calendar.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +19,9 @@ import { SideNavComponent } from './side-nav/side-nav.component';
     HomeComponent,
     MainContentComponent,
     SideNavComponent,
+    LifeComponent,
+    PhotographyComponent,
+    CalendarComponent,
   ],
   imports: [
     CommonModule,
